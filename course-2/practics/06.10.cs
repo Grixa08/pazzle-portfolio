@@ -10,7 +10,7 @@ else if (number == 0)
     Console.WriteLine("Число равно 0");
 
 //work 2
-Console.WriteLine("Введите возрост");
+Console.WriteLine("Введите возраст");
 int age = int.Parse(Console.ReadLine());
 if (age > 18)
     Console.WriteLine("Вы совершеннолетний");
@@ -30,16 +30,18 @@ int a = 5;
 int b = -2;
 if (a > 0 && b > 0)
     Console.WriteLine("Оба числа четные");
-else if (a > 0 || b > 0)
-    Console.WriteLine("Какое то число четное");
-else if (a < 0)
+if (a > 0 || b > 0)
+    Console.WriteLine("Хотя бы одно положительное");
+if (a < 0)
     Console.WriteLine("а не положительное");
 
 //work5
 Console.WriteLine("Введите оценку");
-int grage  = int.Parse(Console.ReadLine());
+int grage = int.Parse(Console.ReadLine());
 if (grage < 3)
     Console.WriteLine("Не удовлетворительно");
+else if (grage == 3)
+    Console.WriteLine("Удовлетворительно");
 else if (grage == 4)
     Console.WriteLine("Хорошо");
 else
