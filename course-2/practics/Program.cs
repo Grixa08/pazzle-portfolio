@@ -5,7 +5,13 @@ partial class Program
     static void Main()
     {
         //practic 1
-        int[] num = { 1, 2, 3, 4, 5 };
+        int[] num = new int[5];
+
+        num[0] = 1;
+        num[1] = 2;
+        num[2] = 3;
+        num[3] = 4;
+        num[4] = 5;
 
         for (int i = 0; i < num.Length; i++)
         {
