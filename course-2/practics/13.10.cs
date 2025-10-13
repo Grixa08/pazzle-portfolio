@@ -23,7 +23,7 @@ public static class practic13
         Random random = new Random();
         int num = random.Next(1, 10);
         int userGuess = 0;
-        Console.WriteLine("Угадайте число от 1 до 100!");
+        Console.WriteLine("Угадайте число от 1 до 10!");
         while (userGuess != num)
         {
             Console.Write("Введите вашу догадку: ");
@@ -83,7 +83,7 @@ public static class practic13
             }
             else
             {
-                Console.WriteLine($"Неверный пароль");
+                Console.WriteLine("Неверный пароль");
             }
 
             if (attempts == maxAttempts)
