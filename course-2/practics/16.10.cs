@@ -122,13 +122,3 @@ public static class practic16
         return a * b;
     }
 }
-    //Задание 8.Перегрузка методов
-    //Создайте несколько версий метода Multiply:
-    //Multiply(int a, int b) — умножает 2 целых числа,
-    //Multiply(int a, int b, int c) — умножает 3 целых числа,
-    //Multiply(double a, double b) — умножает 2 дробных числа.
-
-    //Проверьте работу всех перегрузок:
-    //Console.WriteLine(Multiply(2, 3));
-    //        Console.WriteLine(Multiply(2, 3, 4));
-    //        Console.WriteLine(Multiply(2.5, 4.0));
