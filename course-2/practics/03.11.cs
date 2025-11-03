@@ -86,7 +86,7 @@ public static class Practice03
         var book = new Book { Title = "Война и мир", Author = "Толстой", Pages = 500 };
         book.Read(100);
         book.Read(300);
-        book.Read(200); // попытка прочитать больше чем осталось
+        book.Read(200); 
 
         //work 4
         Console.WriteLine("\nwork 4");
@@ -94,5 +94,6 @@ public static class Practice03
         lib.AddBook(new Book { Title = "1984", Author = "Дж. Оруэлл", Pages = 350 });
         lib.AddBook(new Book { Title = "Что нибудь", Author = "Пушкин", Pages = 400 });
         lib.PrintAllBooks();
+    Console.WriteLite("\n Бесишь")
     }
 }
