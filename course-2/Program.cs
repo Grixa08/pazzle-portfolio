@@ -1,10 +1,10 @@
 ﻿using System;
 
-partial class Program
+class Program
 {
     static void Main()
     {
-        //practic09.Start();
-        homework16.Start();
+        Practice20.Start();
+        Console.ReadKey();
     }
 }

@@ -23,7 +23,6 @@ public static class homework16{
             Console.WriteLine("Например: 5 + 3");
             Console.WriteLine("Для выхода введите 'exit'");
 
-            // Основной цикл программы
             while (true)
             {
                 try
@@ -31,31 +30,26 @@ public static class homework16{
                     Console.Write("Введите выражение (или exit): ");
                     string input = Console.ReadLine();
 
-                    // Проверка на выход
                     if (input.ToLower() == "exit")
                     {
                         Console.WriteLine("Программа завершена");
                         break;
                     }
 
-                    // Разбиваем ввод на части
                     string[] parts = input.Split(' ');
 
-                    // Проверяем корректность ввода
                     if (parts.Length != 3)
                     {
                         Console.WriteLine("Ошибка: неверный формат. Используйте: число операция число");
                         continue;
                     }
 
-                    // Парсим числа
                     double num1 = double.Parse(parts[0]);
                     double num2 = double.Parse(parts[2]);
                     string operation = parts[1];
 
                     double result = 0;
 
-                    // Выбираем операцию и вызываем соответствующий метод
                     switch (operation)
                     {
                         case "+":
@@ -75,7 +69,6 @@ public static class homework16{
                             continue;
                     }
 
-                    // Выводим результат
                     Console.WriteLine($"Результат: {result}");
                 }
                 catch (FormatException)
