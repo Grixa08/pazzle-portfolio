@@ -4,7 +4,7 @@ class Program
 {
     static void Main()
     {
-        Practice03.Start();
+        Practice06_11.Start();
         Console.ReadKey();
     }
 }

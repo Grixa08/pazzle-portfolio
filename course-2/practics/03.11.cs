@@ -94,6 +94,5 @@ public static class Practice03
         lib.AddBook(new Book { Title = "1984", Author = "Дж. Оруэлл", Pages = 350 });
         lib.AddBook(new Book { Title = "Что нибудь", Author = "Пушкин", Pages = 400 });
         lib.PrintAllBooks();
-    Console.WriteLite("\n Бесишь")
     }
 }
