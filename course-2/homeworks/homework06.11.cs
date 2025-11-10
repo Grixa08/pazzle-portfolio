@@ -1,6 +1,6 @@
 ﻿using System;
 
-public static class Practice06_10
+public static class Homework06_11
 {
     // 1
     public class Movie

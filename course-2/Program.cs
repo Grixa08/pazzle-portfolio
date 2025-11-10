@@ -4,6 +4,6 @@ class Program
 {
     static void Main()
     {
-        Practice06_10.Start();
+        Practice10_11.Start();
     }
 }
