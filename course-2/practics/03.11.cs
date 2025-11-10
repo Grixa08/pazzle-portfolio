@@ -1,5 +1,5 @@
 using System;
-
+// кодировка
 public static class Practice03
 {
     //work 1
