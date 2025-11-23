@@ -47,13 +47,39 @@
 //}
 
 //шаг 7
-var zooPark = new Zoo(5);
-zooPark.Add(new Dog("Рекс"));
-zooPark.Add(new Cat("Снежок"));
-zooPark.Add(new Elephant("Балу"));
+//var zooPark = new Zoo(5);
+//zooPark.Add(new Dog("Рекс"));
+//zooPark.Add(new Cat("Снежок"));
+//zooPark.Add(new Elephant("Балу"));
 
-Console.WriteLine("=== Звуки ===");
-zooPark.MakeAllSounds();
+//Console.WriteLine("=== Звуки ===");
+//zooPark.MakeAllSounds();
 
-Console.WriteLine("=== Кормим ===");
-zooPark.FeedAll();
+//Console.WriteLine("=== Кормим ===");
+//zooPark.FeedAll();
+
+//homework
+// Создаем животных
+Animal[] animals = {
+    new Dog("Шарик"),
+    new Cat("Мурка"),
+    new Elephant("Дамбо")
+};
+
+Console.WriteLine("Звуки животных");
+foreach (var animal in animals)
+{
+    animal.MakeSound();
+}
+
+Console.WriteLine("\nКормление");
+foreach (var animal in animals)
+{
+    animal.Eat();
+}
+
+Console.WriteLine("\nОтдых");
+foreach (var animal in animals)
+{
+    animal.Rest();
+}

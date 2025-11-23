@@ -12,7 +12,6 @@
     //шаг 6
     public override void MakeSound()
     {
-        base.MakeSound();                 // (опционально) расширяем поведение
         Console.WriteLine($"{Name}: Гав-гав!");
     }
 }
