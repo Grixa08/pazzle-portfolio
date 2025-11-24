@@ -1,12 +1,12 @@
-﻿//using System;
+﻿using System;
 
-//class Program
-//{
-//    static void Main()
-//    {
-//        practic17_11.Start();
-//    }
-//}
+class Program
+{
+    static void Main()
+    {
+        Practic24_11.Start();
+    }
+}
 
 //шаг 2
 //var a1 = new Animal { Name = "Безымянный" };
@@ -60,26 +60,27 @@
 
 //homework
 // Создаем животных
-Animal[] animals = {
-    new Dog("Шарик"),
-    new Cat("Мурка"),
-    new Elephant("Дамбо")
-};
+//Animal[] animals = {
+//    new Dog("Шарик"),
+//    new Cat("Мурка"),
+//    new Elephant("Дамбо")
+//};
 
-Console.WriteLine("Звуки животных");
-foreach (var animal in animals)
-{
-    animal.MakeSound();
-}
+//Console.WriteLine("Звуки животных");
+//foreach (var animal in animals)
+//{
+//    animal.MakeSound();
+//}
 
-Console.WriteLine("\nКормление");
-foreach (var animal in animals)
-{
-    animal.Eat();
-}
+//Console.WriteLine("\nКормление");
+//foreach (var animal in animals)
+//{
+//    animal.Eat();
+//}
 
-Console.WriteLine("\nОтдых");
-foreach (var animal in animals)
-{
-    animal.Rest();
-}
+//Console.WriteLine("\nОтдых");
+//foreach (var animal in animals)
+//{
+//    animal.Rest();
+//}
+
