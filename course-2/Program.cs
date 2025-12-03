@@ -4,7 +4,7 @@ class Program
 {
     static void Main()
     {
-        Practic24_11.Start();
+        work01_12.Start();
     }
 }
 
